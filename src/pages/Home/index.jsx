@@ -1,3 +1,4 @@
+import Carousel from "../../components/Carousel";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Logo from "../../components/Logo";
@@ -5,11 +6,20 @@ import Main from "../../components/Main";
 import Nav from "../../components/Nav";
 
 export default function Home() {
+    const images = [
+        { url: 'https://live.themewild.com/laundri/assets/img/service/05.jpg', caption: "Texto para o Slide 1" },
+        { url: 'https://live.themewild.com/laundri/assets/img/service/04.jpg', caption: "Texto para o Slide 2" },
+        { url: 'https://live.themewild.com/laundri/assets/img/service/01.jpg', caption: "Texto para o Slide 3" }
+    ];
+    
     return (
         <>
-            <Header>
-                <Logo />
+            <Logo>
                 <Nav />
+            </Logo>
+
+            <Header>
+                <Carousel images={images} />
             </Header>
 
             <Main>

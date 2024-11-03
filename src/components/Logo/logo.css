@@ -1,12 +1,22 @@
 .logo {
     display: flex;
-    gap: 0.5rem;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* padding: 2rem; */
-    /* background-color: var(--cor-02); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
     font-weight: 700;
     font-size: 1.5rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--cor-01);
+    border-bottom: solid 0.08rem var(--cor-02);
+}
+
+.logo div {
+    display: flex;
+    gap: 0.5rem;
 }
 
 .logo span {

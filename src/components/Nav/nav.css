@@ -10,6 +10,7 @@ nav li {
 
 nav a {
     color: inherit;
+    font-size: 1rem;
     font-weight: 700;
     padding: 0.5rem;
     text-decoration: none;

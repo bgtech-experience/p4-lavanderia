@@ -2,6 +2,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 2rem;
+    /* padding: 0.5rem 2rem; */
+    margin-top: 4rem;
+    height: 80vh;
     background-color: var(--cor-02);
+}
+
+.header-overlay {
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* Sobreposição escura para contraste */
+    /* padding: 20px; */
+    /* width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
