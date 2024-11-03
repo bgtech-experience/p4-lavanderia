@@ -8,9 +8,7 @@ export default function Home() {
     return (
         <>
             <Header>
-                <Logo>
-                    <div>BGTech</div> <span>Experience</span>
-                </Logo>
+                <Logo />
                 <Nav />
             </Header>
 

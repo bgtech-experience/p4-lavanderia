@@ -1,6 +1,10 @@
-# Website Lavanderia
+# Base Site React
 
-#### projeto 4 (p4)
-(02/11/2024)
+(03/11/2024)
 
-Projeto de Lavanderia para uma cliente do Adala Jr.
+Estrutura básica (scafold) do Site em React, com Routes e Components.
+
+Pode ser usado como base inicial de qualquer site.
+
+---
+... de nada! 😉
