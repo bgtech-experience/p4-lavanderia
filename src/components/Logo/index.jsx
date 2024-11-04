@@ -4,7 +4,7 @@ export default function Logo({ children }) {
     return (
         <div className="logo">
             <div>
-                <div>BGTech</div> <span>Experience</span>
+                <div>Lavanderia</div> <span>Laundry</span>
             </div>
             { children }
         </div>

@@ -1,0 +1,18 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Altera se for ímpar */
+section:nth-child(odd) {
+    background-color: var(--cor-01);
+}
+
+/* Altera se for par */
+section:nth-child(even) {
+    background-color: var(--cor-02);
+}

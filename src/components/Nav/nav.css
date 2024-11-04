@@ -1,5 +1,5 @@
 nav {
-    color: var(--cor-04);
+    color: var(--cor-primaria);
 }
 
 nav li {
@@ -18,5 +18,5 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor-primaria);
+    color: var(--cor-destaque);
 }
