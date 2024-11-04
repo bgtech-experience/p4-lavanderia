@@ -1,0 +1,49 @@
+button {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--cor-03);
+    color: var(--cor-destaque);
+    padding: 1rem 2rem;
+    margin: 0.5rem 0.2rem;
+    border: none;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.saiba-mais {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.saiba-mais:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-01);
+}
+
+.btn-default {
+    background-color: var(--cor-primaria);
+    color: var(--cor-01);
+}
+
+.btn-default:hover {
+    background-color: var(--cor-destaque);
+}
+
+/* .sucesso {
+    background-color: #468c00;
+    color: #f9f9f9;
+} */
+
+/* .alerta {
+    background-color: #ffd000;
+    color: #232323;
+} */
+
+/* .erro {
+    background-color: #ff024a;
+    color: #f9f9f9;
+} */
